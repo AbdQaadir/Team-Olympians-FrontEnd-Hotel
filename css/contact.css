@@ -1,0 +1,112 @@
+main section {
+	background: url("../assets/images/contact/bg_img.png") no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+.Contact_Us {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15% 50px;
+}
+
+.get-in-touch {
+	background-color: white;
+	padding: 40px 50px 120px 50px;
+	box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3); 
+	position: relative;
+	z-index: 1;
+	width: 55%;
+}
+
+.get-in-touch h3 {
+	margin-bottom: 20%;
+	text-align: center;
+}
+
+.contact-form input[type=email] {
+	box-sizing:border-box;
+	background-color: #b4b4b4;
+	outline: none;
+	border: none;
+	width: 100%;
+	padding: 15px 25px;
+	border-top-right-radius: 40px; 
+	margin-bottom: 40px;
+}
+
+::placeholder {
+	color: #000;
+	font-weight: bolder;
+}
+
+textarea {
+	box-sizing:border-box;
+	background-color: #b4b4b4;
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 150px;
+	resize: none;
+	padding: 15px 25px;
+}
+
+form input[type=submit] {
+	box-sizing:border-box;
+	background-color: #1e90ff;
+	color: #fff;
+	font-size: 15px;
+	outline: none;
+	border: none;
+	border-radius: 20px 20px 20px 20px;
+	padding: 10px 20px;
+	float: right;
+	margin-top: -50px;
+	position: relative;
+	z-index: 1;
+}
+
+.Contact-us-via {
+	background-color: #fff;
+	padding: 20px 15px 60px 0px;
+}
+
+.Contact-us-via h3 {
+	text-align: center;
+	font-family: ;
+	margin-bottom: 25%;
+}
+
+.Contact-us-via div {
+	text-align: right;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.Contact-us-via p {
+	list-style: none;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.Contact-us-via span {
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 668px) {
+	.get-in-touch {
+		width: 100%;
+	}
+	.Contact_Us {
+		display: block;
+	}
+
+	.Contact-us-via div {
+		text-align: center;
+	}
+	.Contact-us-via span {
+		margin-left: 5px;
+	}	
+}
