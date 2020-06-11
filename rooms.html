@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="./css/rooms.css" />
     <link rel="stylesheet" href="./css/headerfooter-style-qobi.css" />
     <link rel="stylesheet" href="./css/home_qobi.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/images/site.webmanifest" />
   </head>
   <body>
     <div class="page">
@@ -21,10 +39,10 @@
             </section>
             <section class="right">
               <ul>
-                <a href=""><li>Hotel</li></a>
-                <a href=""><li>Rooms</li></a>
-                <a href=""><li>Facilities</li></a>
-                <a href=""><li>Contact Us</li></a>
+                <a href="index.html"><li>Home</li></a>
+                <a href="rooms.html"><li>Rooms</li></a>
+                <a href="services.html"><li>Facilities</li></a>
+                <a href="contact.html"><li>Contact Us</li></a>
                 <button>Login</button>
               </ul>
             </section>
@@ -34,10 +52,10 @@
               </div>
               <ul>
                 <img src="./assets/images/companylogo/logo.png" alt="" />
-                <a href=""><li>Hotel</li></a>
-                <a href=""><li>Rooms</li></a>
-                <a href=""><li>Facilities</li></a>
-                <a href=""><li>Contact Us</li></a>
+                <a href="index.html"><li>Home</li></a>
+                <a href="rooms.html"><li>Rooms</li></a>
+                <a href="services.html"><li>Facilities</li></a>
+                <a href="contact.html"><li>Contact Us</li></a>
                 <button>Login</button>
               </ul>
             </section>
@@ -54,13 +72,13 @@
           <div class="container">
             <nav>
               <ul>
-                <a href=""><li>Hotel</li></a>
+                <a href="index.html"><li>Home</li></a>
                 <a href="" class="seperator"><li>|</li></a>
-                <a href=""><li>Rooms</li></a>
+                <a href="rooms.html"><li>Rooms</li></a>
                 <a href="" class="seperator"><li>|</li></a>
-                <a href=""><li>Facilities</li></a>
+                <a href="services.html"><li>Facilities</li></a>
                 <a href="" class="seperator"><li>|</li></a>
-                <a href=""><li>Contact Us</li></a>
+                <a href="contact.html"><li>Contact Us</li></a>
                 <a href="" class="seperator"><li>|</li></a>
                 <a href=""><button>Login</button></a>
               </ul>
@@ -91,11 +109,73 @@
           </div>
         </section>
 
+        <!--  -->
+
+        <!--  -->
         <!-- Filter Section -->
-        <section class="container" id="room-filter">
-          <div class="row">
-            <div class="col-4"></div>
-          </div>
+        <section class="container my-5" id="filter">
+          <form class="row d-flex justify-content-center">
+            <div class="col-lg-4 col-md-4 col-sm-10 d-flex mx-3">
+              <div class="d-inline mx-3 input1">
+                <label for="checkin">Check in:</label>
+                <input type="date" id="checkin" name="checkin" />
+              </div>
+            <div class="d-inline mx-3">
+              <label for="checkin">Check out:</label>
+              <input type="date" id="checout" name="checkout" />
+            </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 col-sm-10 d-flex mx-3" id="agegroup">
+              <div class="d-inline mx-2 text-center">
+              <label for="room">Room</label>
+              <select name="room" id="room" class="d-block">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              </div>
+              <div class="d-inline mx-2 text-center">
+              <label for="checkin">Adult</label>
+              <select name="adult" id="adult" class="d-block">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              </div>
+
+              <div class="d-inline mx-2 text-center">
+              <label
+                for="children
+              "
+                >Children</label
+              >
+              <select name="children" id="children" class="d-block">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                </div>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-10 d-flex mx-3" id="class">
+              <div class="d-inline">
+                <label for="class">Class:</label>
+                <input list="class">
+                <datalist name="class" id="class" class="d-block">
+                  <option value="Presidential">
+                  <option value="First Class">
+                  <option value="Second Class">
+                  <option value="Basic">
+                </datalist>
+              </div>
+            </div>
+          </form>
         </section>
 
         <!-- First Class -->
@@ -244,10 +324,10 @@
               </div>
               <nav>
                 <ul>
-                  <a href=""><li>Hotel</li></a>
-                  <a href=""><li>Rooms</li></a>
-                  <a href=""><li>Facilities</li></a>
-                  <a href=""><li>Contact Us</li></a>
+                  <a href="index.html"><li>Home</li></a>
+                  <a href="rooms.html"><li>Rooms</li></a>
+                  <a href="services.html"><li>Facilities</li></a>
+                  <a href="contact.html"><li>Contact Us</li></a>
                   <button>Login</button>
                 </ul>
               </nav>
@@ -327,10 +407,10 @@
                 <h5>2020 Team Olympus. &nbsp;All Rights Reserved</h5>
               </ul>
               <ul>
-                <a href=""><li>Hotel</li></a>
-                <a href=""><li>Rooms</li></a>
-                <a href=""><li>Facilities</li></a>
-                <a href=""><li>Contact Us</li></a>
+                <a href="index.html"><li>Home</li></a>
+                <a href="rooms.html"><li>Rooms</li></a>
+                <a href="services.html"><li>Facilities</li></a>
+                <a href="contact.html"><li>Contact Us</li></a>
                 <button>Login</button>
               </ul>
             </nav>

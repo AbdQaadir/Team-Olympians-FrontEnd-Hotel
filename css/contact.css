@@ -55,17 +55,26 @@ textarea {
 
 form input[type=submit] {
 	box-sizing:border-box;
-	background-color: #1e90ff;
+	background: rgba(54, 159, 255, 0.5);
 	color: #fff;
-	font-size: 15px;
-	outline: none;
+	font-family: 'roboto_bold';
+	font-size: 1em;
+    outline: none;
 	border: none;
-	border-radius: 20px 20px 20px 20px;
-	padding: 10px 20px;
+	border-radius: 20px;
+	padding: 8px 30px;
 	float: right;
 	margin-top: -50px;
+	margin-right: 10px;
 	position: relative;
 	z-index: 1;
+	cursor: pointer;
+	transition: .2s ease-in-out;
+	
+}
+
+form input[type=submit] :hover{
+	background: rgba(24, 139, 246, 0.5);
 }
 
 .Contact-us-via {
@@ -101,6 +110,7 @@ form input[type=submit] {
 	}
 	.Contact_Us {
 		display: block;
+		padding-top: 250px;
 	}
 
 	.Contact-us-via div {
