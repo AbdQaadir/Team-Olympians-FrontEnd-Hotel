@@ -16,10 +16,10 @@
 }
 
 .home .first_section{
-    /* background-image: url(../assets/images/home/O9FG4R0\ 1.png); */
+    background-image: url(../assets/images/home/O9FG4R0\ 1.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: cover;
+    background-size: 1000px;
     padding-top: 150px;
     /* background-color: black; */
 }
