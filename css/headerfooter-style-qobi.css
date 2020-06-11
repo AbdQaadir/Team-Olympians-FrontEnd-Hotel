@@ -190,6 +190,7 @@ header .mobile_nav{
     /* overflow: scroll; */
     transform: translateY(-100%);
     transition: .3s ease-in;
+    z-index: 500;
 }
 
 .open_menu{
