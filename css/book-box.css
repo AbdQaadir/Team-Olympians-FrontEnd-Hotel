@@ -1,184 +1,132 @@
 section .txtblue{
-    outline: 0;
-    text-align: center;
-    height: auto;
-    width: 77%;
+    width: 80%;
     background-color: cornflowerblue;
-    display: flex;
     margin: 59px auto;
     border-radius: 0 30px 30px 0;
     box-shadow: 0px 10px 13px -7px #814848, 5px 5px 15px 5px rgba(0,0,0,0);
+    padding: 40px 0;
 }
+
+.txtblue .container_booking{
+    display: flex;
+    justify-content: space-evenly;
+    height: 220px;
+    width: 95%;
+    margin: 0 auto;
+}
+
 select {
-border: 0;
-outline: 0;
-border-bottom: 1px solid black;
-margin: 4%;
-padding: 2%;
-background: cornflowerblue;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid white;
+    background: cornflowerblue;
+    height: 50px;
 }
-input {
+
+input[type=date]{
   outline: 0;
   border: 0;
   margin: 0;
   background: cornflowerblue;
-}
-
-.b3 h3 {
-  margin-top: 3%;
-}
-h3{
-  margin-top: 2%;
-}
-input {
   width: 60%;
+  border-bottom: 1px solid white;
+  height: 50px;
 }
 
-.sect-two .txtblue .box1{
-    height: 130;
-    width: 35%;
-    border: 1px solid white;
+input[type=checkbox]{
+    height: 30px;
+    width: 30px;
+    background: cornflowerblue;
+    border-radius: 3px;
+    margin-top:15px;
+    border: none;
 }
-.sect-two .txtblue .box2{
-    height: 130px;
-    width: 35%;
-    border: 1px solid white;
+
+.sect-two .txtblue .box3 .b3 button{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'roboto_bold';
+    font-size: 1em;
+    background: rgba(134, 196, 253, 0.5);
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    margin-top:20px;
+    box-shadow: 1px 2px 4px .2px rgba(65, 65, 65, 0.1);
+    outline:none;
 }
+
+.sect-two .txtblue .box1,
+.sect-two .txtblue .box2,
 .sect-two .txtblue .box3{
-    height: 130px;
-    width: 35%;
-    border: 1px solid white;
-}
-
-.sect-two .txtblue .box1 .b1{
-    border: 2px solid white;
-    height: 100px;
-    width: 88%;
-    transform: translate(20px, 15px);
-}
-.sect-two .txtblue .box1 .b1 h3{
-    font-weight: 600;
-    text-align: center;
-    font-family: sans-serif;
-    padding-top: 3px;
-}
-.sect-two .txtblue .box1 .b1 p{
-    font-weight: 600;
-    text-align: center;
-    padding-top: 10px;
-    font-family: sans-serif;
-}
-.sect-two .txtblue .box2 .b2{
-    border: 2px solid white;
-    height: 100px;
-    width: 75%;
-    transform: translate(20px, 15px);
-}
-.sect-two .txtblue .box3 .b3{
-    border: 2px solid white;
-    height: 100px;
-    width: 88%;
-    transform: translate(20px, 15px);
-}
-
-.sect-two .txtblue .box2 .b2 h3{
-    font-weight: 600;
-    text-align: center;
-    font-family: sans-serif;
-    padding-top: 3px;
-}
-@media (max-width: 1120px) {
-  section .txtblue{
-      outline: 0;
-      text-align: center;
-      height: auto;
-      width: 86%;
-      background-color: cornflowerblue;
-      display: flex;
-      margin: 59px auto;
-      border-radius: 0 30px 30px 0;
-      box-shadow: 0px 10px 13px -7px #814848, 5px 5px 15px 5px rgba(0,0,0,0);
-  }
-}
-
-@media (max-width: 800px) {
-  section .txtblue{
-      outline: 0;
-      text-align: center;
-      height: auto;
-      width: 94%;
-      background-color: cornflowerblue;
-      display: flex;
-      margin: 59px auto;
-      border-radius: 0 30px 30px 0;
-      box-shadow: 0px 10px 13px -7px #814848, 5px 5px 15px 5px rgba(0,0,0,0);
-  }
-}
-
-@media (max-width: 720px) {
-  section .txtblue{
+    width: 40%;
     height: 100%;
-    width: 79%;
-    background-color: cornflowerblue;
+}
+
+.sect-two .txtblue .box1 .b1,
+.sect-two .txtblue .box2 .b2,
+.sect-two .txtblue .box3 .b3{
+    border: 1px solid white;
+    width: 88%;
+    height: 100%;
+    /* padding: 20px 0; */
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    border-radius: 0 30px 30px 0;
-    box-shadow: 0px 10px 13px -7px #814848, 5px 5px 15px 5px rgba(0,0,0,0);
-}
-
-.sect-two .txtblue .box1{
-    height: 150px;
-    width: 400px;
-    border: 1px solid white;
-}
-.sect-two .txtblue .box2{
-    height: 150px;
-    width: 400px;
-    border: 1px solid white;
-}
-.sect-two .txtblue .box3{
-    height: 150px;
-    width: 400px;
-    border: 1px solid white;
-}
-
-.sect-two .txtblue .box1 .b1{
-    border: 2px solid white;
-    height: auto;
-    width: 300px;
-
-}
-.sect-two .txtblue .box1 .b1 h3{
-    font-weight: 600;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
+    margin: 0 auto;
+}
+
+.sect-two .txtblue .box2 .b2{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+
+.sect-two .txtblue .header_book{
+    padding: 25px 0;
+}
+
+
+
+
+.sect-two .txtblue .box1 .b1 h3,
+.sect-two .txtblue .box2 .b2 h3,
+.sect-two .txtblue .box3 .b2 h3{
     font-family: sans-serif;
-    padding-top: 3px;
+    margin: 0;
 }
 .sect-two .txtblue .box1 .b1 p{
-    font-weight: 600;
-    text-align: center;
-    padding-top: 10px;
-    font-family: sans-serif;
-}
-.sect-two .txtblue .box2 .b2{
-    border: 2px solid white;
-    height: auto;
-    width: 300px;
-
-}
-.sect-two .txtblue .box3 .b3{
-    border: 2px solid white;
-    height: auto;
-    width: 300px;
-
+    font-family: 'roboto_regular';
 }
 
-.sect-two .txtblue .box2 .b2 h3{
-    font-weight: 600;
-    text-align: center;
-    font-family: sans-serif;
-    padding-top: 3px;
+
+@media only screen and (max-width: 768px){
+    .txtblue .container_booking{
+        flex-direction : column;
+        height: auto;
+        /* border: 1px solid black; */
+        width: 85%;
+    }
+
+    .sect-two .txtblue .box1,
+    .sect-two .txtblue .box2,
+    .sect-two .txtblue .box3{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .sect-two .txtblue .box1 .b1,
+    .sect-two .txtblue .box2 .b2,
+    .sect-two .txtblue .box3 .b3{
+        padding: 20px 0 40px;
+    }
 }
 
+@media only screen and (max-width: 450px){
+    .txtblue .container_booking{
+        width: 95%;
+    }
 }
