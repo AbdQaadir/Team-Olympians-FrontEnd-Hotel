@@ -1,7 +1,21 @@
 /* RESPONSIVENESS */
+/*Main */
+img {
+    box-shadow: 0px 10px 13px -7px #814848, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.containerx {
+  width: 80%;
+  margin: auto;
+}
+.presidential-img {
+  height: auto;
+  width: 100%;
+}
+
 @media screen and (max-width: 320px) {
-  .container {
-    margin-top: 60px;
+  .containerx {
+    width: 100%;
+    margin-top: 60px auto;
   }
   .row-header {
     font-size: 1.5rem;
@@ -20,12 +34,17 @@
   }
   /* Presidential */
   .presidential-header {
+    padding-bottom: 6px;
     font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
   }
+  .presidential-header h1
+    {
+      margin-bottom: 400px;;
+    }
   .presidential-img {
-    height: 60vh;
+    height: auto;
     width: 100%;
   }
   .presidential-rating {
@@ -44,17 +63,19 @@
   /* FIRST CLASS */
 
   .room-col {
-    margin-top: 40px;
+    margin-top: 20px;
     position: relative;
     height: 40vh;
   }
   .first-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
-    background: yellow;
+    padding: 8px 36px;
+    background: #fbcc22;
     color: black;
     font-weight: bold;
     font-size: 1rem;
@@ -79,6 +100,8 @@
 
   /* SECOND CLASS */
   .second-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
@@ -109,11 +132,13 @@
 
   /* BASIC CLASS */
   .basic-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
+    padding: 8px 36px;
     background: rgb(141, 115, 0);
     color: black;
     font-weight: bold;
@@ -139,7 +164,8 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 375px) {
-  .container {
+  .containerx {
+    width: 100%;
     margin-top: 60px;
   }
   .row-header {
@@ -159,12 +185,13 @@
   }
   /* Presidential */
   .presidential-header {
+    padding-bottom: 6px;
     font-size: 1.6rem;
     text-align: center;
     font-weight: bold;
   }
   .presidential-img {
-    height: 60vh;
+    height: auto;
     width: 100%;
   }
   .presidential-rating {
@@ -183,17 +210,19 @@
   /* FIRST CLASS */
 
   .room-col {
-    margin-top: 45px;
+    margin-top: 20px;
     position: relative;
     height: 40vh;
   }
   .first-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
-    background: yellow;
+    padding: 8px 36px;
+    background: #fbcc22;
     color: black;
     font-weight: bold;
     font-size: 1rem;
@@ -218,11 +247,13 @@
 
   /* SECOND CLASS */
   .second-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
+    padding: 8px 36px;
     background: gray;
     color: black;
     font-weight: bold;
@@ -248,11 +279,13 @@
 
   /* BASIC CLASS */
   .basic-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
+    padding: 8px 36px;
     background: rgb(141, 115, 0);
     color: black;
     font-weight: bold;
@@ -278,7 +311,8 @@
 }
 
 @media only screen and (min-width: 376px) and (max-width: 425px) {
-  .container {
+  .containerx {
+    width: 100%;
     margin-top: 60px;
     padding: 0 40px;
   }
@@ -299,12 +333,13 @@
   }
   /* Presidential */
   .presidential-header {
+    padding-bottom: 6px;
     font-size: 1.6rem;
     text-align: center;
     font-weight: bold;
   }
   .presidential-img {
-    height: 60vh;
+    height: auto;
     width: 100%;
   }
   .presidential-rating {
@@ -328,12 +363,14 @@
     height: 40vh;
   }
   .first-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
-    background: yellow;
+    padding: 8px 36px;
+    background: #fbcc22;
     color: black;
     font-weight: bold;
     font-size: 1rem;
@@ -358,11 +395,13 @@
 
   /* SECOND CLASS */
   .second-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
+    padding: 8px 36px;
     background: gray;
     color: black;
     font-weight: bold;
@@ -388,11 +427,13 @@
 
   /* BASIC CLASS */
   .basic-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
+    padding: 8px 36px;
     background: rgb(141, 115, 0);
     color: black;
     font-weight: bold;
@@ -418,7 +459,8 @@
 }
 
 @media only screen and (min-width: 426px) and (max-width: 868px) {
-  .container {
+  .containerx {
+    width: 100%;
     margin-top: 60px;
     padding: 0 60px;
   }
@@ -439,12 +481,13 @@
   }
   /* Presidential */
   .presidential-header {
+    padding-bottom: 6px;
     font-size: 1.6rem;
     text-align: center;
     font-weight: bold;
   }
   .presidential-img {
-    height: 60vh;
+    height: auto;
     width: 100%;
   }
   .presidential-rating {
@@ -468,12 +511,14 @@
     height: 40vh;
   }
   .first-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
-    background: yellow;
+    padding: 8px 36px;
+    background: #fbcc22;
     color: black;
     font-weight: bold;
     font-size: 1rem;
@@ -498,11 +543,13 @@
 
   /* SECOND CLASS */
   .second-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
+    padding: 8px 36px;
     background: gray;
     color: black;
     font-weight: bold;
@@ -514,6 +561,7 @@
     height: 100%;
   }
   .second-class-rating {
+    margin-right: 15px;
     position: absolute;
     bottom: -2rem;
     right: 20px;
@@ -528,11 +576,13 @@
 
   /* BASIC CLASS */
   .basic-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 15px;
+    padding: 8px 36px;
     background: rgb(141, 115, 0);
     color: black;
     font-weight: bold;
@@ -558,7 +608,9 @@
 }
 
 @media only screen and (min-width: 999px) {
-  .container {
+  .containerx {
+    margin: auto;
+    width: 80%;
     margin-top: 100px;
   }
   .row-header {
@@ -579,12 +631,13 @@
   }
   /* Presidential */
   .presidential-header {
+    padding-bottom: 6px;
     text-align: center;
     font-weight: bold;
     font-size: 3rem;
   }
   .presidential-img {
-    height: 80vh;
+    height: auto;
     width: 100%;
   }
   .presidential-rating {
@@ -608,12 +661,14 @@
     height: 40vh;
   }
   .first-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 20px;
-    background: yellow;
+    padding: 8px 36px;
+    background: #fbcc22;
     color: black;
     font-weight: bold;
     font-size: 1.3rem;
@@ -638,11 +693,14 @@
 
   /* SECOND CLASS */
   .second-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 20px;
+    padding: 8px 36px;
     background: gray;
     color: black;
     font-weight: bold;
@@ -668,11 +726,13 @@
 
   /* BASIC CLASS */
   .basic-class-booking {
+    border: 1px solid #000000ab;
+    margin-right: 15px;
     position: absolute;
     top: 0;
     right: 0;
     border-bottom-left-radius: 40px;
-    padding: 20px;
+    padding: 8px 36px;
     background: rgb(141, 115, 0);
     color: black;
     font-weight: bold;
